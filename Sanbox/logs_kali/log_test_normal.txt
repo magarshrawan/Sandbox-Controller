@@ -1,0 +1,26 @@
+[15:37:42.919] Sandbox starting. target=./test_normal wall=10s cpu=5s mem=500000KB
+[15:37:42.920] Child launched, pid=585, pgid=585
+[15:37:42.922] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:43.123] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:43.323] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:43.524] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:43.724] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:43.924] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:44.125] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:44.325] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:44.525] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:44.726] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:44.926] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:45.126] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:45.327] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:45.527] monitor: pid=585 rss=1736KB cpu=0.00s
+[15:37:45.728] monitor: pid=585 rss=1736KB cpu=0.00s
+test_normal: starting, pid=585
+test_normal: working... 0
+test_normal: working... 1
+test_normal: working... 2
+test_normal: done, exiting cleanly.
+[15:37:45.921] Child pid 585 exited normally, code=0
+[15:37:45.928] ---- Sandbox summary ----
+[15:37:45.928] Total wall time: 3.01s
+[15:37:45.928] Result: child exited normally, code=0

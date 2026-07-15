@@ -1,0 +1,22 @@
+[15:37:58.771] Sandbox starting. target=./test_memory_hog wall=30s cpu=30s mem=30000KB
+[15:37:58.772] Child launched, pid=601, pgid=601
+[15:37:58.773] monitor: pid=601 rss=1728KB cpu=0.00s
+test_memory_hog: starting, pid=601
+test_memory_hog: allocated 5.0 MB total
+test_memory_hog: allocated 10.0 MB total
+[15:37:58.973] monitor: pid=601 rss=12052KB cpu=0.00s
+test_memory_hog: allocated 15.0 MB total
+[15:37:59.173] monitor: pid=601 rss=17176KB cpu=0.03s
+test_memory_hog: allocated 20.0 MB total
+[15:37:59.374] monitor: pid=601 rss=22300KB cpu=0.07s
+test_memory_hog: allocated 25.0 MB total
+[15:37:59.574] monitor: pid=601 rss=27424KB cpu=0.12s
+test_memory_hog: allocated 30.0 MB total
+[15:37:59.774] monitor: pid=601 rss=32548KB cpu=0.17s
+[15:37:59.774] POLICY VIOLATION: Memory limit exceeded (32548KB > 30000KB)
+[15:37:59.774] Sending SIGTERM to process group 601
+[15:37:59.783] Child pid 601 was killed by signal 15 (Terminated)
+[15:37:59.874] Child terminated gracefully after SIGTERM.
+[15:37:59.973] ---- Sandbox summary ----
+[15:37:59.973] Total wall time: 1.20s
+[15:37:59.973] Result: TERMINATED BY SANDBOX (Memory limit exceeded (32548KB > 30000KB))
