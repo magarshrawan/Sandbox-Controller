@@ -1,0 +1,37 @@
+[12:00:01.696] Sandbox starting. target=./test_cpu_hog wall=30s cpu=2s mem=500000KB
+[12:00:01.697] Child launched, pid=22815, pgid=22815
+[12:00:01.699] monitor: pid=22815 rss=200KB cpu=0.00s
+[12:00:01.899] monitor: pid=22815 rss=1664KB cpu=0.18s
+[12:00:02.101] monitor: pid=22815 rss=1664KB cpu=0.38s
+test_cpu_hog: starting, pid=22815 (bursty CPU, ignores SIGTERM)
+test_cpu_hog: burst done
+[12:00:02.302] monitor: pid=22815 rss=1728KB cpu=0.39s
+[12:00:02.503] monitor: pid=22815 rss=1728KB cpu=0.49s
+[12:00:02.705] monitor: pid=22815 rss=1728KB cpu=0.69s
+test_cpu_hog: burst done
+[12:00:02.907] monitor: pid=22815 rss=1728KB cpu=0.80s
+[12:00:03.108] monitor: pid=22815 rss=1728KB cpu=0.80s
+[12:00:03.309] monitor: pid=22815 rss=1728KB cpu=0.99s
+[12:00:03.511] monitor: pid=22815 rss=1728KB cpu=1.19s
+test_cpu_hog: burst done
+[12:00:03.712] monitor: pid=22815 rss=1728KB cpu=1.20s
+[12:00:03.913] monitor: pid=22815 rss=1728KB cpu=1.29s
+[12:00:04.115] monitor: pid=22815 rss=1728KB cpu=1.48s
+test_cpu_hog: burst done
+[12:00:04.316] monitor: pid=22815 rss=1728KB cpu=1.59s
+[12:00:04.518] monitor: pid=22815 rss=1728KB cpu=1.59s
+[12:00:04.720] monitor: pid=22815 rss=1728KB cpu=1.78s
+[12:00:04.921] monitor: pid=22815 rss=1728KB cpu=1.98s
+test_cpu_hog: burst done
+[12:00:05.122] monitor: pid=22815 rss=1728KB cpu=1.99s
+[12:00:05.323] monitor: pid=22815 rss=1728KB cpu=2.08s
+[12:00:05.323] POLICY VIOLATION: CPU time limit exceeded (2.08s > 2s)
+[12:00:05.323] Sending SIGTERM to process group 22815
+test_cpu_hog: burst done
+test_cpu_hog: burst done
+test_cpu_hog: burst done
+[12:00:07.342] Child ignored SIGTERM. Escalating to SIGKILL on group 22815
+[12:00:07.344] Child pid 22815 was killed by signal 9 (Killed)
+[12:00:07.345] ---- Sandbox summary ----
+[12:00:07.345] Total wall time: 5.65s
+[12:00:07.345] Result: TERMINATED BY SANDBOX (CPU time limit exceeded (2.08s > 2s))
