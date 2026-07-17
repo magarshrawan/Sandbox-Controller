@@ -1,4 +1,4 @@
-# Edge Case Testing (Day 5)
+# Edge Case Testing 
 
 ## 1. Nonexistent binary path
 Before this fix, an invalid path caused `execv()` to fail *inside the
