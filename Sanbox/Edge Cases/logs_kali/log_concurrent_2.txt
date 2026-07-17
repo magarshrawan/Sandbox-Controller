@@ -1,0 +1,21 @@
+[11:58:56.450] Sandbox starting. target=./test_memory_hog wall=30s cpu=30s mem=30000KB
+[11:58:56.450] Child launched, pid=15035, pgid=15035
+[11:58:56.450] monitor: pid=15035 rss=4KB cpu=0.00s
+test_memory_hog: starting, pid=15035
+test_memory_hog: allocated 5.0 MB total
+test_memory_hog: allocated 10.0 MB total
+[11:58:56.651] monitor: pid=15035 rss=12060KB cpu=0.00s
+test_memory_hog: allocated 15.0 MB total
+[11:58:56.852] monitor: pid=15035 rss=17184KB cpu=0.00s
+test_memory_hog: allocated 20.0 MB total
+[11:58:57.052] monitor: pid=15035 rss=22308KB cpu=0.01s
+test_memory_hog: allocated 25.0 MB total
+test_memory_hog: allocated 30.0 MB total
+[11:58:57.253] monitor: pid=15035 rss=32556KB cpu=0.01s
+[11:58:57.253] POLICY VIOLATION: Memory limit exceeded (32556KB > 30000KB)
+[11:58:57.253] Sending SIGTERM to process group 15035
+[11:58:57.254] Child pid 15035 was killed by signal 15 (Terminated)
+[11:58:57.353] Child terminated gracefully after SIGTERM.
+[11:58:57.452] ---- Sandbox summary ----
+[11:58:57.453] Total wall time: 1.00s
+[11:58:57.453] Result: TERMINATED BY SANDBOX (Memory limit exceeded (32556KB > 30000KB))
