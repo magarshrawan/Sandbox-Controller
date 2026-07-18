@@ -1,0 +1,2 @@
+sandbox: limits must be >= 0 (0 disables a limit)
+exit: 2

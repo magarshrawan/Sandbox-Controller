@@ -1,0 +1,2 @@
+sandbox: target './nope' does not exist: No such file or directory
+exit: 2
